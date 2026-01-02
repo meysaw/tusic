@@ -12,8 +12,7 @@ Terminal-based music player built with Java using **Lanterna** for TUI.
 ## Requirements
 
 - Java 21+
-- `mpv` (or bundled binary)
-- `yt-dlp` (or bundled binary)
+
 
 ## Linux Setup
 
