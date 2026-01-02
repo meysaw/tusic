@@ -25,9 +25,11 @@ mvn clean package
 2. Make the Linux binaries executable:
 ```bash
 chmod +x bin/linux/*
+```
 3.Run the application:
 ```bash
 ./run.sh
+```
 
 
 ## macOS Setup
@@ -35,7 +37,12 @@ chmod +x bin/linux/*
 
 ```bash
 mvn clean package
+```
 2. Make the macOS binaries executable:
+```bash
 chmod +x bin/linux/*
+```
 3.Run the application:
+```bash
    ./run-mac.sh
+```
