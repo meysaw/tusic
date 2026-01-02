@@ -19,6 +19,8 @@ Terminal-based music player built with Java using **Lanterna** for TUI.
 1. Build the fat JAR (includes all dependencies):
 
 ```bash
+git clone https://github.com/meysaw/tusic.git
+
 mvn clean package
 ```
 2. Make the Linux binaries executable:
@@ -35,6 +37,8 @@ chmod +x bin/linux/*
 1. Build the fat JAR (includes all dependencies):
 
 ```bash
+git clone https://github.com/meysaw/tusic.git
+
 mvn clean package
 ```
 2. Make the macOS binaries executable:
