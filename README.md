@@ -21,7 +21,7 @@ Terminal-based music player built with Java using **Lanterna** for TUI.
 
 ```bash
 mvn clean package
-
+```
 2. Make the Linux binaries executable:
 ```bash
 chmod +x bin/linux/*
