@@ -1,37 +1,37 @@
 # Tusic - TUI Music Player
 
-Terminal-based music player in Java built using Lanterna.
+Terminal-based music player built with Java using **Lanterna** for TUI.
 
 ## Features
 
-- Plays audio using mpv
-- Downloads tracks using yt-dlp
-- SQLite database support
-- Works on Linux and macOS
+- Plays audio using **mpv**
+- Downloads tracks using **yt-dlp**
+- **SQLite** database support
+- Works on **Linux** and **macOS**
 
 ## Requirements
 
 - Java 21+
-- mpv (or bundled binary)
-- yt-dlp (or bundled binary)
+- `mpv` (or bundled binary)
+- `yt-dlp` (or bundled binary)
 
 ## Linux Setup
 
-1. Build the JAR:
-   bash:
+1. Build the fat JAR (includes all dependencies):
 
+```bash
 mvn clean package
+2. Make the Linux binaries executable:
+chmod +x bin/linux/*
+3.Run the application:
+./run.sh
 
-chmod +x bin/linux/\*
+## macOS Setup
+1. Build the fat JAR (includes all dependencies):
 
-run ./run.sh
-
-## Mac Setup
-
-2. Build the JAR:
-
+```bash
 mvn clean package
-
-chmod +x bin/mac/\*
-
-run ./run-mac.sh
+2. Make the macOS binaries executable:
+chmod +x bin/linux/*
+3.Run the application:
+   ./run-mac.sh
