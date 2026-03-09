@@ -1,9 +1,26 @@
-
+# Build output
 target/
-*.log
+dependency-reduced-pom.xml
 
-
+# IDE files
 .idea/
 *.iml
+*.iws
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+*~
+.vscode/
 
+# OS files
 .DS_Store
+Thumbs.db
+
+# Application runtime files
+music.db
+downloads/
+
+# Logs
+*.log
